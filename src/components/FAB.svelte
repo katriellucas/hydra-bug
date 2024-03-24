@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
 
-	let { children, href, onclick, type = 'button', target, visual, size } = $props<FAB>();
+	let { children, href, onclick, type = 'button', target, visual, size } = $props();
 </script>
 
 {#if href}
